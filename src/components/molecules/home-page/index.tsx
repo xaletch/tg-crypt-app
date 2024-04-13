@@ -22,6 +22,7 @@ export const HomePage = () => {
       bgColor={"#1A181B"}
       color={"white"}
       h={"100dvh"}
+      minH={"790px"}
       p="15px"
       py={8}
       overflowX={"hidden"}

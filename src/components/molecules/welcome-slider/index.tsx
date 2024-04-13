@@ -36,6 +36,7 @@ export const WelcomeSlider = () => {
       bgColor={"#1A181B"}
       color={"white"}
       h={"100dvh"}
+      minH={"790px"}
       justifyContent={"space-between"}
       p={8}
       overflow={"hidden"}
