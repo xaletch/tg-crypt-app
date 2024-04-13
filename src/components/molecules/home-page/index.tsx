@@ -22,7 +22,6 @@ export const HomePage = () => {
       bgColor={"#1A181B"}
       color={"white"}
       h={"100dvh"}
-      minH={"790px"}
       p="15px"
       py={8}
       overflowX={"hidden"}
@@ -78,7 +77,7 @@ export const HomePage = () => {
         width="100%"
         marginTop="18px"
         pl="24px"
-        alignItems={"end"}
+        alignItems={"center"}
         direction={["row"]}
         justifyContent={"space-between"}
         zIndex={9}
@@ -110,17 +109,17 @@ export const HomePage = () => {
           </Box>
         </VStack>
         <Button
-          size="sm"
           rounded="full"
-          leftIcon={<PlusIcon />}
-          px="43px"
-          boxShadow="0 2px 4px 0 rgba(0, 0, 0, 0.25);"
-          bgColor="#38a169"
-          color="white"
+          w={"61px"}
+          h={"61px"}
+          border={"3px solid #09DDFA"}
+          color="#fff"
           backdropFilter="blur(50px)"
-          _hover={{ bgColor: "#38a169" }}
+          boxShadow={"inset 0 1px 1px 0 rgba(255, 255, 255, 0.5)"}
+          bgColor={"transparent"}
+          _hover={{ bgColor: "#09DDFA", boxShadow: "none" }}
         >
-          Invest
+          <PlusIcon w={"26px"} h={"26px"} />
         </Button>
       </Stack>
 
